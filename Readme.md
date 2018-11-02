@@ -1,5 +1,5 @@
 # Tentative Lesson Plan
-======================================
+
 
 ## 1. Discrete Math
 
