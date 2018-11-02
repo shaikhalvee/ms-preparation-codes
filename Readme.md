@@ -1,23 +1,23 @@
-#Tentative Lesson Plan
+# Tentative Lesson Plan
+======================================
 
-##1. Discrete Math
+## 1. Discrete Math
 
-####1.1 Topics
+#### 1.1 Topics
 	- Pigeonhole Principle
 	- Proof strategy
 	- Problems regarding truth & false. e.g. In a village there are 2 types of people, who only speaks true or false.
 	 If you ask ......[similar type of question]
 
-
-####1.2 Questions
+#### 1.2 Questions
 	- discrete math problem about telephone number.
 	- discrete math proof of x+y>=100 then proof or disproof x>=50 or y>=50
 	- Prove that in a group of 50 students of different height there is a increasing subsequence of height of length at least 8.
 
 
-##2. Structural Programming
+## 2. Structural Programming
 
-####2.1 Topics
+#### 2.1 Topics
 	- #define in C
 	- Macro
 	- Structure, Union concepts
@@ -27,7 +27,7 @@
 	- sum of digit code
 	- c program for n reverse of digits
 
-####1.2 Questions
+#### 1.2 Questions
 	- #define related problems.
 	- #define CONCATE(a, b) a##b
 	- #define makeString(a) #a
@@ -44,9 +44,9 @@
 	- Using pointer insert a number in a sorted list, it was forbidden to use array notation like array[] , all should be done by pointer notation.
 
 
-##3. OOP
+## 3. OOP
 
-####3.1 Topics:
+#### 3.1 Topics:
 	- implementing java method (so we can infer that language specific questions might actually come)
 	- finding errors in a given code
 			
@@ -79,15 +79,15 @@
 	- lambda expression
 
 
-##4. Data Structure
+## 4. Data Structure
 
-####4.1 Topics
+#### 4.1 Topics
 	- post/pre/in-order traversal of BST
 	- Stack, Queue
 	- Simulations
 	- stack and queue interchange
 
-####4.2 Questions
+#### 4.2 Questions
 	- Explain that we can write 10n^2+7n=O(n^2), but we can not write 10n^2+7n=O(n)
 	- What is heap? Build a max heap using the following number.
 	- What is asymtotic upper bound of an algorithm? Can we write 10n^2+7n=O(n^2)? Explain
@@ -102,8 +102,8 @@
     - pre, in, post order traversal
     - Meaning and usefulness of three operand operations, which data structures should be used for them
 
-##5. Algorithm
-####5.1 Topics
+## 5. Algorithm
+#### 5.1 Topics
 	- basic algos like sorting/bfs/dfs
 	- in general simulations might come (last year merge sort and DFS traversal was given)
 	- BFS/DFS
@@ -116,15 +116,15 @@
 	- time complexity of quick sort
 	- heap's pseducode
 
-####5.2 Questions
+#### 5.2 Questions
 	- Draw a minimmum spanning tree of the following graph. What is the weight of your minimmum spanning tree?
 	- if an algorithm needs 21 steps for a 7x7 matrix multiplication, how many steps would it need for a nxn matrix multiplication.
 	- How can you search a number in O(1) average complexity.
 	- Write an algorithm for finding the k-th smallest element in an array of n element. Analyze the time-complexty of your algorithm
 	- greedy method of mst.
 
-##6. Compiler and Automata
-####6.1 Topics
+## 6. Compiler and Automata
+#### 6.1 Topics
 	- Deterministic Finite Automata (DFA)
 	- Non-deterministic Finite Automata (NFA)
 	- Regular Expression
@@ -139,13 +139,13 @@
 	- semantic parser
 	- generator of compiler
 
-####6.2 Questions
+#### 6.2 Questions
 	- Context Free Grammar of Even length non empty palindromes comprising of { a , b , c }.
 	- True false questions
 	- CFG, NFA, DFA rel ques.
 
-##7. DLD:
-####7.1 Topics
+## 7. DLD:
+#### 7.1 Topics
 	- function implementation, function reduction using K-map with don't care
 	- comparator design
 	- Flip Flops
@@ -155,13 +155,13 @@
 	- state diagram
 	- T flip flops
 
-####7.2 Questions
+#### 7.2 Questions
 	- Mainly k-map
 	- boolean algebra(simplification)
 	- 4*16 decoder design from two 3*8 decoders
 
-##8. Computer Architecture
-####8.1 Topics
+## 8. Computer Architecture
+#### 8.1 Topics
 	- virtual memory/address
 	- cache
 	- Performance comparison
@@ -170,21 +170,21 @@
 	- diagram of hazard
 	- networking commands of windows or linux
 
-####8.2 Questions
+#### 8.2 Questions
 	- Unidirection buffer and bidirectional buffer
 	- page index related math
 	- Two different ways of designing control unit
 	- Short question from cache , functional position of cache in computer architecture , write through and write back cache , merits and demerits
 	- Fill in the blanks.
 
-##9. OS
-####9.1 Topics
+## 9. OS
+#### 9.1 Topics
 	- basics
 	- IPC
 	- Deadlock
 	- LINUX basics
 
-####9.2 Questions
+#### 9.2 Questions
 	- write down linux shell command for, replacing all .c files into .cpp files and remove all java files.
 	- moving same type of files to a diferent directory
 	- math from Operating System , page size and etc.
@@ -201,8 +201,8 @@
 	- Advantage and disadvantage of having small page size
 	- Define turn around time and waiting time. SJF, FCFS use kre gantt chart and turn around time ber krte hbe. arrival time,burst time deya chilo
 
-##10. Microprocessor/Microcontroller
-####10.1 Topics
+## 10. Microprocessor/Microcontroller
+#### 10.1 Topics
 	- Delay loop calculation
 	- 8255 Control Word
 	- parallel I/O modes
@@ -210,7 +210,7 @@
 	- difference between uP and uC
 	- instruction
 
-####10.2 Question
+#### 10.2 Question
 	- Program counter from Microprocessor
 	- Difference between Microprocessor & Microcontroller
 	- What is superscalar processor , why pentium is a superscalar processor but 80386 is not
@@ -218,8 +218,8 @@
 	- Some math about counter
 	- Convert a 100 MHz clock to 50 MHz and 25 MHz by only using D flip-flops. https://www.chegg.com/homework-help/given-100-mhz-clock-signal-derive-circuit-using-d-flip-flops-chapter-7-problem-5p-solution-9780077211646-exc
 
-##11. Database
-####11.1 Topics
+## 11. Database
+#### 11.1 Topics
 	- CRUD
 	- write ahead
 	- constraints
@@ -230,27 +230,27 @@
 	- B+ tree
 	- Lock related from database
 
-####11.2 Question
+#### 11.2 Question
 	- SQL/DDL code, mainly using join, inner/left outer join.
 	- Query having multiple subqueries
 	- Lock related from database
 	- Implementing B & B+ tree
 	- Database indexing
 
-##12. Software Engineering
-####12.1 Topics
+## 12. Software Engineering
+#### 12.1 Topics
 	- Critical Path Method (CPM) and PERT chart
 	- alpha-beta testing
 	- software validation and verification
 	- waterfall model
 	- design depends on software components
 	
-##13. ISD
-####13.1 Topics
+## 13. ISD
+#### 13.1 Topics
 	- design patterns
 	- Diagrams
 
-####13.2 Question
+#### 13.2 Question
 	- ***Waterfall model. advantages disadvantages
 	- ER diagram.
 	- Class diagram.
@@ -258,15 +258,15 @@
 	- state diagram
 	- alpha beta testing
 
-##14. Network Communication
-####14.1 Topics
+## 14. Network Communication
+#### 14.1 Topics
 	- IP address
 	- OSI Reference model
 	- Network Security
 	- TCP/UDP related question
 	- networking commands of windows or linux
 
-####14.2
+#### 14.2 Questions
 	- Some question about PAT , NAT.
 	- Should we compress before encrypting or encrypt after compressing, why?
 	- salient feature of WiMAX
@@ -288,8 +288,8 @@
 		departments each having provision of maximum 590 hosts. Assume that the admin of the department has given the subnet number 9. what is the subnetwork address and write any two host address.
 
 	
-##15. AI
-####15.1 Topics
+## 15. AI
+#### 15.1 Topics
 	- Agent, Rational agent
 	- Task environment (PEAS)
 		� Performance Measure
