@@ -216,7 +216,7 @@
 	- What is superscalar processor , why pentium is a superscalar processor but 80386 is not
 	- Advantages of AVR-8086 over 80386
 	- Some math about counter
-	- Convert a 100 MHz clock to 50 MHz and 25 MHz by only using D flip-flops. Here is some insight I think :/ [weblink](https://www.chegg.com/homework-help/given-100-mhz-clock-signal-derive-circuit-using-d-flip-flops-chapter-7-problem-5p-solution-9780077211646-exc)
+	- Convert a 100 MHz clock to 50 MHz and 25 MHz by only using D flip-flops. Here is some insight I think. [Weblink!](https://www.chegg.com/homework-help/given-100-mhz-clock-signal-derive-circuit-using-d-flip-flops-chapter-7-problem-5p-solution-9780077211646-exc)
 
 ## 11. Database
 #### 11.1 Topics
