@@ -1,19 +1,22 @@
-Tentative Lesson Plan
----------------------
+#Tentative Lesson Plan
 
 ##1. Discrete Math
+
 ####1.1 Topics
 	- Pigeonhole Principle
 	- Proof strategy
 	- Problems regarding truth & false. e.g. In a village there are 2 types of people, who only speaks true or false.
 	 If you ask ......[similar type of question]
 
+
 ####1.2 Questions
 	- discrete math problem about telephone number.
 	- discrete math proof of x+y>=100 then proof or disproof x>=50 or y>=50
 	- Prove that in a group of 50 students of different height there is a increasing subsequence of height of length at least 8.
-	
+
+
 ##2. Structural Programming
+
 ####2.1 Topics
 	- #define in C
 	- Macro
@@ -39,8 +42,10 @@ Tentative Lesson Plan
 	- pointer arithmatics [very tough, including multidimensional array]
 	- short notes on ...... [different topics]
 	- Using pointer insert a number in a sorted list, it was forbidden to use array notation like array[] , all should be done by pointer notation.
-	
+
+
 ##3. OOP
+
 ####3.1 Topics:
 	- implementing java method (so we can infer that language specific questions might actually come)
 	- finding errors in a given code
@@ -72,8 +77,10 @@ Tentative Lesson Plan
 	- super class
 	- inheritance from private or which
 	- lambda expression
-	
+
+
 ##4. Data Structure
+
 ####4.1 Topics
 	- post/pre/in-order traversal of BST
 	- Stack, Queue
