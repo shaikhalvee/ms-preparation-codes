@@ -46,13 +46,20 @@ int main ()
 		cout << "main() : creating thread, " << i << endl;
 		td[i].thread_id = i;
 		td[i].message = "This is the message";
-		rc = pthread_create(&threads[i], NULL, PrintHello, (void *)i);
-		// rc = pthread_create(&threads[i], NULL, printHello, (void *)&td[i]);	// &td[i] provides memory location of td[i]
+		// rc = pthread_create(&threads[i], NULL, PrintHello, (void *)i);
+		rc = pthread_create(&threads[i], NULL, printHello, (void *)&td[i]);	// &td[i] provides memory location of td[i]
+		// struct process isn't working, don't know why.
+		// found it, before finishing the pthreads, main function finishes. Thus resulting the crash
 
 		if (rc) {
 			cout << "Error:unable to create thread," << rc << endl;
 			exit(-1);
 		}
 	}
+
+	for(size_t i = 0; i<NUM_THREADS;++i) pthread_join(threads[i], NULL);
+
+	//pthread_join()
+
 	pthread_exit(NULL);
 }
